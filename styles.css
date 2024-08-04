@@ -510,3 +510,18 @@ button{
     outline: 1px solid black !important;
 }
 
+html {
+    position: fixed;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  body {
+    margin: 0;
+    width: 100vw; 
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+  }
+
